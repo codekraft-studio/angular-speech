@@ -1,0 +1,67 @@
+html, body {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  margin: 0;
+  height: 100%;
+  padding: 0;
+  font-family: 'r', sans-serif;
+  color: #555;
+}
+
+header {
+  background: #CB356B;
+  background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);
+  background: linear-gradient(to right, #BD3F32, #CB356B);
+  margin-bottom: 25px;
+  height: 120px;
+}
+
+header .container {
+  margin: auto;
+}
+
+header .title {
+  color: white !important;
+  font-size: 2.0rem;
+}
+
+header .description {
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+
+main .topbar {
+  max-width: 600px;
+}
+
+/*the place where speech output goes*/
+.result-container {
+  background-color: #f9f3f5;
+  padding: 20px;
+  min-height: 150px;
+  border: thin solid #F8BBD0;
+}
+
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+  padding: 20px;
+  border-top: thin solid #eee;
+}
+
+/*Custom button colors*/
+angular-speech {
+  background-color: #FF5722;
+}
+
+angular-speech:hover {
+  background-color: #F4511E;
+}
+
+angular-speech.recording {
+  background-color: #F44336;
+}
