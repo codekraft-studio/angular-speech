@@ -14,7 +14,6 @@ angular-speech {
     background-color: #ef5350;
     -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
     -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-    -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
     animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1); }
   angular-speech:before, angular-speech:after {
     content: '';
