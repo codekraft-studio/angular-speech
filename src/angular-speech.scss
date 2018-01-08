@@ -48,9 +48,9 @@ angular-speech {
   span {
     position: absolute;
     top: 50%;
-    left: 37%;
+    left: 36%;
     height: 24%;
-    width: 26.5%;
+    width: 28%;
     overflow: hidden;
     
     &:before,
@@ -66,7 +66,7 @@ angular-speech {
       height: 100%;
       box-sizing: border-box;
       border-radius: 50%;
-      border: 0.5em solid #fff;
+      border: 0.125em solid #fff;
       background: none;
     }
 
