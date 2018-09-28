@@ -1,6 +1,8 @@
 # angular-speech
 A simple angular component to deal with browser SpeechRecognition
 
+[DEMO](https://codekraft-studio.github.io/angular-speech/)
+
 ## Getting started
 Install the module via git, npm or bower.
 ```
